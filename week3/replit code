@@ -1,0 +1,13 @@
+# This fine piece of code displays your (hourly rate * hours worked a week), and your annual pay 
+
+#input
+rate = int(input("How many much do you earn per hour?: "))
+hoursworked = int(input("How many hours do you work a week?: "))
+
+#process
+print("According to my scientific calculations, you make: ")
+
+#output
+print((rate * hoursworked), "dollars a week.")
+print((rate * (hoursworked * 4)), "dollars a month.")
+print((rate * (hoursworked * 52)), "dollars annually.")
